@@ -8,6 +8,10 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 
     <title>Frontend Mentor | NFT preview card component</title>
@@ -23,7 +27,7 @@
 <body>
     <main>
         <div class="nftImageContainer">
-            <img src="./images/image-equilibrium.jpg" alt="Equilibrium NFT">
+            <img src="./images/image-equilibrium.jpg" alt="Equilibrium NFT" id="nftImage">
         </div>
 
         <div class="nftDesc">
@@ -53,14 +57,14 @@
             <div class="creatorAvatar">
                 <img src="./images/image-avatar.png" alt="NFT creator avatar" class="avatarImage">
             </div>
-            <div class="nftCredit">Creation of Jules Wyvern</div>
+            <div class="nftCredit">Creation of <span>Jules Wyvern</span></div>
         </div>
     </main>
 
 
 
     <footer class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/Jbugglin">Jordan Bugglin</a>.
     </footer>
 </body>
 
